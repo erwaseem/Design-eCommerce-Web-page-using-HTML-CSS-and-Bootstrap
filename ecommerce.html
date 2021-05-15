@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src= "../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../Fonts/css/all.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+              .rgt
+        {
+            float:right;
+            margin-top:10px;
+            font-size:30px;
+        }
+        #topheader
+        {
+            border-bottom:2px solid #ebebeb;
+        }
+        .d{
+            float:left;
+        }
+        .rgt1
+        {
+            margin-left: 60%;
+        }
+        nav ul li a{
+         
+         font-weight:bold;
+         color:white;
+    }
+    .card
+        {
+           border: 2px solid tomato    !important;
+        }
+        .card-body
+        {
+          padding: 5px 0!important;
+        }
+        .card-img-top
+        {
+          height: 120px;
+        }
+
+        /* this is footer */
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #002858;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #e94ae1!important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+.container1
+{
+  border: 2px solid rgb(235, 23, 111);
+  padding: 20px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 2px 2px 3px rgb(235, 23, 111) ;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+label{
+  font-weight: bold;
+  color: white;
+}
+.head1
+{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.lbl1
+{
+    font-weight: bold;
+  color:red; 
+}
+.head2
+{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color:red;
+}
+
+/* this is footer */
+
+/* News Flash Purpose */
+   
+body {
+    background: #eee
+}
+
+.news {
+    width: 150px
+}
+
+.news-scroll a {
+    text-decoration: none
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px !important;
+    background-color: rgb(207, 23, 23);
+    border-radius: 60%;
+    display: inline-block
+}
+/* Nesw Flash Purpose */
+    </style>
+</head>
+<body>
+    <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><h5 class="text-danger">https://www.facultytuts.com/</h5></marquee>
+    </div>
+    <header>
+        <div class="topheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a class="navbar-brand" href="">
+                           <img src="../Images/header.JPG" width="80" height="80">
+                        </a>
+                        <a href="" class="nav-link rgt">Sign Up</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    
+    <nav class="navbar navbar-dark navbar-expand-md"  style="background-color: #e94ae1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FTuts</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              
+              
+            </ul>
+           <div class="rgt1">
+            <form>
+                <!-- <input type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-danger" type="submit">Search</button>
+              </form> -->
+              <button  data-target="#shoppingCart" data-toggle="modal" class="btn btn-danger btn-block"> <span class="fa fa-shopping-basket"></span> [<span id="lblCount"></span>] Your Cart Items </button>
+              
+           </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- This is for News scrol -->
+    <div class="row">
+        <div class="col">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                            <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;Best Sales</span></div>
+                            <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <a href="#"> This is dummy news flash for nes purpose for more update visit Facultytuts ||</a> <span class="dot"></span> <a href="#">This is dummy news flash for nes purpose for more update visit Facultytuts </a> <span class="dot"></span> <a href="#">This is dummy news flash for nes purpose for more update visit Facultytuts </a> </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- this is for news scroll -->
+      <div class="row">
+          <div class="col-md-8 col-lg-8 col-sm-8">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                      <img src="../Images/a.JPG" class="d-block w-100" alt="..."  height="400" width="100%"/>
+              
+                  </div>
+                  <div class="carousel-item">
+               
+                      <img src="../Images/b.jpg" class="d-block w-100" alt="..."  height="400" width="100%"/>
+                  </div>
+                  <div class="carousel-item">
+               
+                    <img src="../Images/c.jpg" class="d-block w-100" alt="..."  height="400" width="100%"/>
+                </div>
+                 
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-lg-4 col-sm-4">
+            <!-- This is User Login  -->
+            <div class="container1">
+                <div class="head2">Contact Us</div>
+                <form>
+                  <div class="form-group">
+                    <label class="lbl1">User Name</label>
+                    <div>
+                      <input type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="lbl1">Password</label>
+                    <div>
+                      <input type="password" class="form-control">
+                    </div>
+                  </div>
+                 
+                  <div class="form-group">
+                    <button class="btn btn-danger" onclick="f1()">Login</button>
+                  </div>
+                </form>
+              </div>
+            <!-- tHIS IS USER LOGIN -->
+          </div>
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col">
+              <h2 class="text-primary text-center">Some Fashion Product</h2>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Shoe</h3>
+                        <h5 class="card-subtitle">&#8377;777</h5>
+                    </div>
+                    <div class="card-body">
+                        <img src="../Images/shoe.JPG" width="150" height="150">
+                    </div>
+                    <div>
+                        <a href="#" class="card-link"> More Details...</a>
+                    </div>
+                    <div class="card-footer">
+                       <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+                   </div>
+               </div>
+               <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Shoe</h3>
+                    <h5 class="card-subtitle">&#8377;777</h5>
+                </div>
+                <div class="card-body">
+                    <img src="../Images/shoe.JPG" width="150" height="150">
+                </div>
+                <div>
+                    <a href="#" class="card-link"> More Details...</a>
+                </div>
+                <div class="card-footer">
+                   <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+               </div>
+           </div>
+           <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Shoe</h3>
+                <h5 class="card-subtitle">&#8377;777</h5>
+            </div>
+            <div class="card-body">
+                <img src="../Images/shoe.JPG" width="150" height="150">
+            </div>
+            <div>
+                <a href="#" class="card-link"> More Details...</a>
+            </div>
+            <div class="card-footer">
+               <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+           </div>
+       </div>
+       <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Shoe</h3>
+            <h5 class="card-subtitle">&#8377;777</h5>
+        </div>
+        <div class="card-body">
+            <img src="../Images/shoe.JPG" width="150" height="150">
+        </div>
+        <div>
+            <a href="#" class="card-link"> More Details...</a>
+        </div>
+        <div class="card-footer">
+           <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+       </div>
+   </div>
+   <div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Shoe</h3>
+        <h5 class="card-subtitle">&#8377;777</h5>
+    </div>
+    <div class="card-body">
+        <img src="../Images/shoe.JPG" width="150" height="150">
+    </div>
+    <div>
+        <a href="#" class="card-link"> More Details...</a>
+    </div>
+    <div class="card-footer">
+       <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+   </div>
+  
+</div>
+            </div>
+          </div>
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col">
+              <h2 class="text-danger text-center">Some Fruit</h2>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col">
+           <div class="card-deck">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Shoe</h3>
+                    <h5 class="card-subtitle">&#8377;777</h5>
+                </div>
+                <div class="card-body">
+                    <img src="../Images/shoe.JPG" width="150" height="150">
+                </div>
+                <div>
+                    <a href="#" class="card-link"> More Details...</a>
+                </div>
+                <div class="card-footer">
+                   <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+               </div>
+           </div>
+           <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Shoe</h3>
+                <h5 class="card-subtitle">&#8377;777</h5>
+            </div>
+            <div class="card-body">
+                <img src="../Images/shoe.JPG" width="150" height="150">
+            </div>
+            <div>
+                <a href="#" class="card-link"> More Details...</a>
+            </div>
+            <div class="card-footer">
+               <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+           </div>
+       </div>
+       <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Shoe</h3>
+            <h5 class="card-subtitle">&#8377;777</h5>
+        </div>
+        <div class="card-body">
+            <img src="../Images/banana.JPG" width="150" height="150">
+        </div>
+        <div>
+            <a href="#" class="card-link"> More Details...</a>
+        </div>
+        <div class="card-footer">
+           <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+       </div>
+   </div>
+   <div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Shoe</h3>
+        <h5 class="card-subtitle">&#8377;777</h5>
+    </div>
+    <div class="card-body">
+        <img src="../Images/banana.JPG" width="150" height="150">
+    </div>
+    <div>
+        <a href="#" class="card-link"> More Details...</a>
+    </div>
+    <div class="card-footer">
+       <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+   </div>
+</div>
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Shoe</h3>
+        <h5 class="card-subtitle">&#8377;777</h5>
+    </div>
+    <div class="card-body">
+        <img src="../Images/banana.JPG" width="150" height="150">
+    </div>
+    <div>
+        <a href="#" class="card-link"> More Details...</a>
+    </div>
+    <div class="card-footer">
+       <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+   </div>
+</div>
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Shoe</h3>
+        <h5 class="card-subtitle">&#8377;777</h5>
+    </div>
+    <div class="card-body">
+        <img src="../Images/banana.JPG" width="150" height="150">
+    </div>
+    <div>
+        <a href="#" class="card-link"> More Details...</a>
+    </div>
+    <div class="card-footer">
+       <button class="btn btn-danger"><span class="fa fa-shopping-cart"></span> Add Card</button>
+   </div>
+</div>
+           </div>
+          </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+              <div class="card-body">
+                
+                     <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <img src="../Images/d.jpg" width="250" height="250"></marquee>
+                  
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card">
+              <div class="card-body">
+                
+                      <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><img src="../Images/e.jpg" width="250" height="250"></marquee>
+                  
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+          <div class="card">
+              <div class="card-body">
+                
+                      <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><img src="../Images/f.jpg" width="250" height="250"></marquee>
+                  
+              </div>
+          </div>
+      </div>
+    </div>
+        <hr>
+      
+     <div class="row">
+         <div class="col">
+            <section id="footer">
+                <div class="container">
+                    <div class="row text-center text-xs-center text-sm-left text-md-left">
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <h5>About</h5>
+                            <ul class="list-unstyled quick-links">
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Complaint</a></li>
+                        
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <h5>Services</h5>
+                            <ul class="list-unstyled quick-links">
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                        
+                            <div class="container1">
+                    <div class="head1">Contact Us</div>
+                    <form>
+                      <div class="form-group">
+                        <label>Name</label>
+                        <div>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label>Email</label>
+                        <div>
+                          <input type="email" class="form-control">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label>Message</label>
+                        <div>
+                          <textarea>
+          
+                          </textarea>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <button class="btn btn-danger" onclick="f1()">Send</button>
+                      </div>
+                    </form>
+                  </div>
+                        </div>
+                    </div>
+                
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                            <p><u><a href="#"> Created and Develop by Waseem Ahmad</p>
+                            <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://erwaseem.com" target="_blank">ErWaseem</a></p>
+                        </div>
+                        <hr>
+                    </div>	
+                </div>
+            </section>
+           
+
+         </div>
+     </div>
+       <script>
+           function f1()
+           {
+               alert("You are able to Login ");
+           }
+       </script>
+</body>
+</html>
